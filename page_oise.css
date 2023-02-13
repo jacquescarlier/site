@@ -40,8 +40,7 @@ h2{
     border: 2px solid;
     border-color: rgb(66, 16, 230);
     box-shadow: 0px 6px black;
-    
-  }
+}
   .box2d:hover{
     background: rgb(210, 210, 214);
     box-shadow: 0px 8px black;
@@ -62,9 +61,7 @@ h2{
     box-sizing: border-box;
 }
 .boxtext0:hover{
-  
     background: burlywood;
-    visibility: visible;
 }
 .boxtext1{
     display: inline-block;
@@ -79,12 +76,9 @@ h2{
     border: 4px solid;
     border-color: rgb(1, 2, 19);
 }
-
 .boxtext1:hover{
-    
     background: burlywood;
 }
-
 .boxtext2{
     display: inline-block;
     width: 280px;
@@ -134,13 +128,11 @@ h2{
     font-weight: 400;
     border: 4px solid;
     border-color: black;
-
 }
 .boxtext4:hover{
-    
     background: burlywood;
     color:black;
-   }
+}
 a{
     text-decoration:none; 
     color: brown;
