@@ -23,7 +23,8 @@ h1{
 h2{
     font-style: italic;
     text-align: center;
-    
+    margin-top: 0;
+    color: white;
 }
 .box2d{
     display: inline-block;
@@ -48,10 +49,10 @@ h2{
 .boxtext0{
     display: inline-block;
     width: 280px;
-    
+    height: auto;
     margin: 10px;
     padding: 5px;
-    background:whitesmoke ;
+    background: no-repeat center / cover url(ressources/Château-de-Chantilly.jpg) ;
     background-clip: border-box;
     text-align: left;
     color: black;
@@ -61,37 +62,38 @@ h2{
     box-sizing: border-box;
 }
 .boxtext0:hover{
+  
     background: burlywood;
-    
-    
+    visibility: visible;
 }
 .boxtext1{
     display: inline-block;
     width: 280px;
-   /* height: 250;*/
     margin: 10px;
     padding: 5px;
-    background:whitesmoke ;
+    background:no-repeat center / cover url(ressources/palaisdecompiegne.jpg) ;
     background-clip: border-box;
     text-align: left;
     color: black;
     font-weight: 400;
     border: 4px solid;
     border-color: rgb(1, 2, 19);
-    
 }
+
 .boxtext1:hover{
-    background: burlywood; 
+    boxtext1a : visible;
+    background: burlywood;
 }
+
 .boxtext2{
     display: inline-block;
     width: 280px;
     /*height: auto;*/
     margin: 10px;
     padding: 5px;
-    background:whitesmoke  ;
+    background:no-repeat center / cover url(ressources/chateau-pierrefonds.jpg) ;
     background-clip: border-box;
-    text-align: left;
+    text-align: botton;
     color: black;
     font-weight: 400;
     border: 4px solid;
@@ -99,10 +101,47 @@ h2{
 }
 .boxtext2:hover{
     background: burlywood;
-    color:black
+    color:black ;
 }
+.boxtext3{
+    display: inline-block;
+    width: 280px;
+   /* height: 250;*/
+    margin: 10px;
+    padding: 5px;
+    background:no-repeat center / cover url(ressources/chaalis.jpg);
+    background-clip: border-box;
+    text-align: left;
+    color: black;
+    font-weight: 400;
+    border: 4px solid;
+    border-color: rgb(1, 2, 19);
+}
+.boxtext3:hover{
+    background: burlywood;
+    color:black ;
+}
+.boxtext4{
+    display: inline-block;
+    width: 280px;
+    /*height: auto;*/
+    margin: 10px;
+    padding: 5px;
+    background:no-repeat center / cover url(ressources/cathedraledebeauvais.jpg) ;
+    background-clip: border-box;
+    text-align: botton;
+    color: black;
+    font-weight: 400;
+    border: 4px solid;
+    border-color: black;
 
+}
+.boxtext4:hover{
+    
+    background: burlywood;
+    color:black;
+   }
 a{
     text-decoration:none; 
-    color: brown
+    color: brown;
 }
