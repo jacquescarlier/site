@@ -1,0 +1,108 @@
+body{
+    height: 100vh;
+    width: auto;
+    margin-top: -40px;
+    text-align: center;
+}
+.accueil1{
+    width: 100%;
+    height: auto;
+   background: #0E6251;
+   opacity: 0,5;
+    background-repeat: repeat-y;
+    /*background: no-repeat center / cover url(ressources/dragon.jpg);*/
+    }
+h1{
+  
+    font-size: 60px;
+    font-weight: 900;
+    text-align: center;
+    color: rgb(3, 3, 37);
+    text-decoration-line: underline;
+  }
+h2{
+    font-style: italic;
+    text-align: center;
+    
+}
+.box2d{
+    display: inline-block;
+    width: 100px;
+    height: 20px;
+    padding: 15px;
+    mix-blend-mode: multiply;
+    background: rgb(240, 243, 242);  
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+    border: 2px solid;
+    border-color: rgb(66, 16, 230);
+    box-shadow: 0px 6px black;
+    
+  }
+  .box2d:hover{
+    background: rgb(210, 210, 214);
+    box-shadow: 0px 8px black;
+}
+.boxtext0{
+    display: inline-block;
+    width: 280px;
+    
+    margin: 10px;
+    padding: 5px;
+    background:whitesmoke ;
+    background-clip: border-box;
+    text-align: left;
+    color: black;
+    font-weight: 400;
+    border: 4px solid;
+    border-color: rgb(1, 2, 19);
+    box-sizing: border-box;
+}
+.boxtext0:hover{
+    background: burlywood;
+    
+    
+}
+.boxtext1{
+    display: inline-block;
+    width: 280px;
+   /* height: 250;*/
+    margin: 10px;
+    padding: 5px;
+    background:whitesmoke ;
+    background-clip: border-box;
+    text-align: left;
+    color: black;
+    font-weight: 400;
+    border: 4px solid;
+    border-color: rgb(1, 2, 19);
+    
+}
+.boxtext1:hover{
+    background: burlywood; 
+}
+.boxtext2{
+    display: inline-block;
+    width: 280px;
+    /*height: auto;*/
+    margin: 10px;
+    padding: 5px;
+    background:whitesmoke  ;
+    background-clip: border-box;
+    text-align: left;
+    color: black;
+    font-weight: 400;
+    border: 4px solid;
+    border-color: black;
+}
+.boxtext2:hover{
+    background: burlywood;
+    color:black
+}
+
+a{
+    text-decoration:none; 
+    color: brown
+}
