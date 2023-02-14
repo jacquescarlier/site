@@ -6,7 +6,7 @@ body{
     }
 
 .accueil2{
-    width: 100%;
+    width: auto;
     height: 100%;
     background: rgb(56, 61, 56);
     background: center / cover url(ressources/img3.jpg);
