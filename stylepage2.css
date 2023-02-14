@@ -11,6 +11,8 @@ body{
     background: rgb(56, 61, 56);
     background: center / cover url(ressources/img3.jpg);
     background-position: top;
+    background-repeat: repeat-x;
+    background-repeat: repeat-y;
     /*background-repeat: repeat-y;*/
 }
 h1{
