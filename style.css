@@ -54,7 +54,7 @@ h2{
     background: #fff;
     text-align: center;
     padding: 50px;
-    margin: -15px;
+    margin: -50px;
     
     mix-blend-mode: multiply;
     
@@ -64,18 +64,18 @@ h2{
     .c1{
      background: #bea410;  
      position: relative;
-    border-radius: 50% 50% 50% 50% / 16% 17% 83% 84% 
+    border-radius: 50% 50% 50% 50% / 16% 17% 83% 84% ;
     }
     .c2{
-        
+        height: 350px;
         background: violet;
-        border-radius: 50% ;
+        border-radius: 50% 50% 50% 50% / 88% 88% 12% 12%  ;
         position: relative;
     }
     .c3{
-    background: #07789b;
+    background: #bea410;
     position: relative;
-    border-radius: 11% 89% 61% 39% / 52% 82% 18% 48% ;
+    border-radius: 50% 50% 50% 50% / 16% 17% 83% 84%  ;
     }
     
 a{
