@@ -26,6 +26,8 @@ h2{
     margin-top: 0;
     color: white;
 }
+
+
 .box2d{
     display: inline-block;
     width: 100px;
@@ -44,7 +46,7 @@ h2{
   .box2d:hover{
     background: rgb(210, 210, 214);
     box-shadow: 0px 8px black;
-}
+    }
 .boxtext0{
     display: inline-block;
     width: 280px;
@@ -59,10 +61,13 @@ h2{
     border: 4px solid;
     border-color: rgb(1, 2, 19);
     box-sizing: border-box;
+    
 }
 .boxtext0:hover{
+    color: black;
     background: burlywood;
 }
+
 .boxtext1{
     display: inline-block;
     width: 280px;
