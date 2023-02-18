@@ -5,13 +5,13 @@ padding: 0;
 }
 
 body{
+    height: 100vh;
     background: #333;
     opacity: 0.75;
     text-align: center;
    background: repeat center / cover url(ressources/arbre_solitaire.jpg);
 }
- 
-nav{
+ nav{
     height: 70px;
     width: 100%;
     background-color: lavender	;
@@ -36,6 +36,11 @@ h1{
     color: whitesmoke;
     margin-top: 10px;
     margin-bottom: 30px;
+}
+h6{
+    font-style: italic;
+    font-size: 10px;
+    color: rgb(243, 34, 34);
 }
 .box{
         display: inline-block;
@@ -79,4 +84,17 @@ h1{
         color: black;
         font-size: 19px;
     }
-    
+/*.menubas{
+    color: black;
+    font-size: 19px;
+    margin-bottom: 0;
+    line-height:50px ;
+}    */
+footer{
+    height: 50px;
+    width: auto;
+   position: absolute;
+   bottom: 0;
+   left: 0;
+   right: 0;
+}
