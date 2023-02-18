@@ -8,11 +8,13 @@ body{
     background: #333;
     opacity: 0.75;
     text-align: center;
+   background: repeat center / cover url(ressources/arbre_solitaire.jpg);
 }
+ 
 nav{
     height: 70px;
     width: 100%;
-    background-color: #f1f1f1;
+    background-color: lavender	;
 } 
 ul{
     width: 100%;
@@ -42,6 +44,8 @@ h1{
         background: #fff;
         padding: 20px;
         margin: 20px;
+        mix-blend-mode: multiply;
+        box-shadow: 10px 5px 5px White;
 }
     .c1{
         background: #bea410;  
