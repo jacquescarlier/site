@@ -37,6 +37,11 @@ h1{
     margin-top: 10px;
     margin-bottom: 30px;
 }
+h2{
+    font-style: italic;
+    color: red;
+    margin-bottom: 10px;
+}
 h6{
     font-style: italic;
     font-size: 10px;
@@ -45,11 +50,11 @@ h6{
 .box{
         display: inline-block;
         width: 300px;
-        height: 180px;
+        /*height: auto;*/
         background: #fff;
         padding: 20px;
         margin: 20px;
-        mix-blend-mode: multiply;
+        /*mix-blend-mode: multiply;*/
         box-shadow: 10px 5px 5px White;
 }
 .box :hover{
@@ -66,16 +71,16 @@ h6{
     }
     .c2{
         background: rgb(221, 214, 183);
+        position: relative;
         vertical-align: middle;
         border-radius:30px ;
-        position: relative;
         border:  5px  solid;
         border-color: whitesmoke;
     }
     .c3{
         background: #bea410;
-        vertical-align: middle;
         position: relative;
+        vertical-align: middle;
         border-radius: 30px  ;
         border:  5px  solid;
         border-color: red;
