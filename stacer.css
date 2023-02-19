@@ -1,0 +1,44 @@
+body{
+    height: 100vh;
+    background: rgb(189, 186, 186);
+    
+   /*background: repeat center / cover url(ressources/arbre_solitaire.jpg);*/
+}
+li{
+    text-align: left;
+    margin-left: 60px;
+}
+h1{
+    text-align: center;
+}
+h2{
+    text-align: left;
+    margin-left: 35px;
+    
+}
+h4{
+    text-align: left;
+    font-style: italic;
+    font-weight: bold;
+    margin-left: 50px;
+}
+p{
+    text-align: left;
+    margin-left: 40px;
+    margin-right: 100px;
+}
+p span{
+   color: blueviolet;
+   font-weight: bolder;
+}
+.boxstacer{
+    margin-left: 60px;
+    text-align: center;
+    display: inline-block;
+    height: 300px;
+    width: 50%;
+}
+a{
+    text-decoration: none;
+    color: blue;
+}
