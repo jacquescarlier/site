@@ -54,12 +54,13 @@ h6{
         background: #fff;
         padding: 20px;
         margin: 20px;
-        /*mix-blend-mode: multiply;*/
         box-shadow: 10px 5px 5px White;
 }
-.box :hover{
-    box-shadow: 7px 3px 3px blueviolet;
-
+.box:hover{
+    transform: skewY(0deg);
+    box-shadow: 10px 5px 5px rgb(164, 162, 164);
+    border: 0;
+    transform: scale(1.25);
 }
     .c1{
         background: #bea410;  
@@ -67,39 +68,40 @@ h6{
         vertical-align: middle;
         border-radius: 30px ;
         border:  5px  solid;
+        transform: skewY(-35deg);
         border-color: blue;
     }
-    .c2{
+   .c2{
         background: rgb(221, 214, 183);
         position: relative;
         vertical-align: middle;
-        border-radius:30px ;
+        border-radius:50% ;
         border:  5px  solid;
+        transform: skewY(35deg);
         border-color: whitesmoke;
     }
-    .c3{
+   .c3{
         background: #bea410;
         position: relative;
         vertical-align: middle;
         border-radius: 30px  ;
         border:  5px  solid;
+        transform: skewY(-35deg);
         border-color: red;
+        box-shadow: 15px 5px 15px 5px White;
     } 
     .box a{text-decoration: none;
         color: black;
         font-size: 19px;
     }
-/*.menubas{
-    color: black;
-    font-size: 19px;
-    margin-bottom: 0;
-    line-height:50px ;
-}    */
+    .box a:hover{
+        box-shadow: 10px 5px 5px violet;
+    }
 footer{
-    height: 50px;
-    width: auto;
-   position: absolute;
-   bottom: 0;
-   left: 0;
-   right: 0;
+        height: 50px;
+        width: auto;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
 }
