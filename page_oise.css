@@ -138,6 +138,23 @@ h2{
     background: burlywood;
     color:black;
 }
+.boxtext5{
+    display: inline-block;
+    width: 280px;
+    /*height: auto;*/
+    margin: 10px;
+    padding: 5px;
+    background:no-repeat center / cover url(ressources/Etangs-de-Comelles.jpg) ;
+    background-clip: border-box;
+    text-align: botton;
+    color: black;
+    font-weight: 400;
+    border: 4px solid;
+    border-color: black;
+}
+.boxtext5:hover{
+    background: burlywood;
+    color:black;}
 a{
     text-decoration:none; 
     color: rgb(6, 6, 6);
