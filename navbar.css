@@ -9,7 +9,7 @@ body{
     background: #333;
     opacity: 0.75;
     text-align: center;
-   background: repeat center / cover url(ressources/arbre_solitaire.jpg);
+    background: repeat center / cover url(ressources/arbre_solitaire.jpg);
 }
  nav{
     height: 70px;
@@ -31,6 +31,9 @@ nav ul li a{
     color: black;
     font-size: 19px;
 }
+li{
+    margin-top: 10px;
+}
 h1{
     text-align: center;
     color: whitesmoke;
@@ -42,9 +45,20 @@ h2{
     color: red;
     margin-bottom: 10px;
 }
+#bande_horizontale{
+    padding: 0px;
+    margin: auto;
+    border: none;
+    width: 50%;
+    height: 2px;
+    background-color: red;
+    }
+    
 h6{
     font-style: italic;
     font-size: 10px;
+    margin-left: 40px;
+    margin-right: 20px;
     color: rgb(243, 34, 34);
 }
 .box{
@@ -61,6 +75,7 @@ h6{
     box-shadow: 10px 5px 5px rgb(164, 162, 164);
     border: 0;
     transform: scale(1.25);
+    background-color: whitesmoke;
 }
     .c1{
         background: #bea410;  
@@ -101,6 +116,88 @@ h6{
     .box a:hover{
         box-shadow: 10px 5px 5px violet;
     }
+    .box2d{
+        display: inline-block;
+        width: 120px;
+        height: 50px;
+        padding: 15px;
+        margin: 20px;
+        margin-bottom: 30px;
+        /*vertical-align: middle;*/
+        background: rgb(180, 178, 178);  
+        border-radius: 30px;
+        font-size: 14px;
+        text-align: center;
+        color: azure;
+        border: 2px solid;
+        border-color: darkgray;
+        box-shadow: 0px 6px gray;
+        
+      }
+      .box2d:hover{
+        background: rgb(210, 210, 214);
+        box-shadow: 0px 8px gray;}
+        
+    .boxtext0{
+        display: inline-block;
+        position: relative;
+        width: 200px;
+       /* min-height: 200px;*/
+        margin: 20px;
+        padding: 30px;
+        background:no-repeat center / cover url(ressources/bgp1bloctext2.jpg) ;
+        background-clip: border-box;
+        color: blue;
+        font-weight: 400;
+        border: 2px solid;
+        border-color: blue;
+        box-sizing: border-box;
+    }
+    .boxtext0:hover{
+        background: lightgray;
+    }
+    .boxtext1{
+        display: inline-block;
+        position: relative;
+        width: 350px;
+        /*min-height: 200px;*/
+        margin: 20px;
+        padding: 30px;
+        background:no-repeat center / cover url(ressources/bgp1text1.jpg) ;
+        background-clip: border-box;
+        color: whitesmoke;
+        font-weight: 400;
+        border: 2px solid;
+        border-color: white;
+        
+    }
+    .boxtext1:hover{
+        background: lightgray; 
+        color: black;
+    }
+    .boxtext2{
+        display: inline-block;
+        position: relative;
+        width: 350px;
+        /*min-height: 200px;*/
+        margin: 20px;
+        padding: 30px;
+        background:no-repeat center / cover url(ressources/bgp1bloctexxt2a.jpg) ;
+        background-clip: border-box;
+        color: yellowgreen;
+        font-weight: 400;
+        border: 2px solid;
+        border-color: red;
+    }
+    .boxtext2:hover{
+        background: lightgray;
+        color:black
+    }
+a{text-decoration: none;
+        color: rgb(37, 11, 240);
+        font-weight: bolder;
+            
+}
 footer{
         height: 50px;
         width: auto;
