@@ -29,7 +29,7 @@ nav ul li{
 nav ul li a{
     text-decoration: none;
     color: black;
-    font-size: 19px;
+    font-size: 15px;
 }
 li{
     margin-top: 10px;
@@ -45,6 +45,17 @@ h2{
     color: red;
     margin-bottom: 10px;
 }
+h2.cligne{
+    animation-duration: .8s;
+    animation-name: clignoter;
+    animation-iteration-count: 5;
+    transition: none;
+}
+@keyframes clignoter {
+    0%   { opacity:1; }
+    40%   {opacity:0; }
+    100% { opacity:1; }
+  }
 #bande_horizontale{
     padding: 0px;
     margin: auto;
@@ -52,8 +63,11 @@ h2{
     width: 50%;
     height: 2px;
     background-color: red;
+    animation-duration: .8s;
+    animation-name: clignoter;
+    animation-iteration-count: 10;
+    transition: none;
     }
-    
 h6{
     font-style: italic;
     font-size: 10px;
@@ -121,9 +135,8 @@ h6{
         width: 120px;
         height: 50px;
         padding: 15px;
-        margin: 20px;
+        margin: 30px;
         margin-bottom: 30px;
-        /*vertical-align: middle;*/
         background: rgb(180, 178, 178);  
         border-radius: 30px;
         font-size: 14px;
