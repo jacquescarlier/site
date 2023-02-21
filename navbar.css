@@ -65,7 +65,7 @@ h2.cligne{
     background-color: red;
     animation-duration: .8s;
     animation-name: clignoter;
-    animation-iteration-count: 10;
+    animation-iteration-count: infinite;
     transition: none;
     }
 h6{
