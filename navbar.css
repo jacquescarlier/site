@@ -126,6 +126,17 @@ h6{
         border:  5px  solid;
         transform: skewY(0deg);
         border-color: whitesmoke;
+        animation: tour;
+        animation-iteration-count: 2;
+        animation-duration: 3s;
+    }
+    @keyframes tour{
+        0% {
+            transform: rotate(0deg);
+        }
+        100% { 
+            transform: rotate(360deg);
+        }
     }
    .c3{
         background: #bea410;
