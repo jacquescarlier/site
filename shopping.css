@@ -12,6 +12,7 @@ body{
     background-position: top;
     background-repeat: repeat;
     text-align: center;
+    font-family: 'Varela Round', sans-serif;
     }
     nav{
         height: 70px;
@@ -35,6 +36,19 @@ body{
     li{
         margin-top: 10px;
     }
+    li a::after{
+        content: "";
+        display: block;
+        width: 0px;
+        margin: 0px 0 0 0;
+        height: 3px;
+        background: black;
+        transition: width 0.2s ease-out;
+    }
+    
+    li a:hover::after{
+    width: 100%;
+    }
 h1{
     font-size: 60px;
     font-weight: 900;
@@ -57,6 +71,8 @@ h6{
     opacity: 0.75;
     font-style: italic;
     color: black;
+    border: 2px solid;
+    border-color: blue;
     margin: 30px;
     border-radius: 30px;
     box-sizing: border-box;
@@ -73,6 +89,8 @@ h6{
     background-color: beige;
     font-style: italic;
     color: black;
+    border: 2px solid;
+    border-color: blue;
     margin: 30px;
     border-radius: 30px;
     text-align: center;
@@ -90,6 +108,8 @@ h6{
     opacity: 0.75;
     font-style: italic;
     color: black;
+    border: 2px solid;
+    border-color: blue;
     margin: 30px;
     border-radius: 30px;
     text-align: center;
@@ -107,6 +127,8 @@ h6{
     opacity: 0.75;
     font-style: italic;
     color: black;
+    border: 2px solid;
+    border-color: blue;
     margin: 30px;
     border-radius: 30px ;
     text-align: center;
@@ -124,6 +146,8 @@ h6{
     opacity: 0.75;
     font-style: italic;
     color: black;
+    border: 2px solid;
+    border-color: blue;
     margin: 30px;
     border-radius: 30px ;
     text-align: center;
@@ -141,6 +165,8 @@ h6{
     opacity: 0.75;
     font-style: italic;
     color: black;
+    border: 2px solid;
+    border-color: blue;
     margin: 30px;
     border-radius: 30px ;
     text-align: center;
@@ -158,6 +184,8 @@ h6{
     opacity: 0.75;
     font-style: italic;
     color: black;
+    border: 2px solid;
+    border-color: blue;
     margin: 30px;
     border-radius: 30px ;
     text-align: center;
@@ -175,6 +203,8 @@ h6{
     opacity: 0.75;
     font-style: italic;
     color: black;
+    border: 2px solid;
+    border-color: blue;
     margin: 30px;
     border-radius: 30px ;
     text-align: center;
