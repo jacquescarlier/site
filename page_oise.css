@@ -3,17 +3,16 @@ body{
     width: auto;
     margin-top: -40px;
     text-align: center;
+    background:center / cover url(ressources/foret.jpg);
+    background-repeat: repeat-y;
+    font-family: 'Varela Round', sans-serif;
 }
 .accueil1{
     width: 100%;
-    height: auto;
-   background: #0E6251;
-   /*opacity: 1;*/
-    background-repeat: repeat-y;
-    background: no-repeat center / cover url(ressources/foret.jpg);*/
-    }
+    height: 100%;
+    /*background: #0E6251;*/
+}
 h1{
-  
     font-size: 60px;
     font-weight: 900;
     text-align: center;
@@ -26,8 +25,9 @@ h2{
     margin-top: 0;
     color: white;
 }
-
-
+p{
+    font-family: 'Poppins', sans-serif;
+}
 .box2d{
     display: inline-block;
     width: 100px;
@@ -46,7 +46,7 @@ h2{
   .box2d:hover{
     background: rgb(210, 210, 214);
    /* box-shadow: 0px 8px rgb(160, 123, 12);*/
-    }
+}
 .boxtext0{
     display: inline-block;
     width: 280px;
@@ -61,13 +61,11 @@ h2{
     border: 4px solid;
     border-color: rgb(1, 2, 19);
     box-sizing: border-box;
-    
 }
 .boxtext0:hover{
     color: black;
     background: burlywood;
 }
-
 .boxtext1{
     display: inline-block;
     width: 280px;
