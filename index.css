@@ -1,6 +1,6 @@
 *, ::before, ::after {
 box-sizing: border-box;
-margin: -5px;
+margin: -10px;
 padding: 0;
 }
 
@@ -9,7 +9,8 @@ body{
     background: #333;
     opacity: 0.75;
     text-align: center;
-    background: repeat center / cover url(ressources/arbre_solitaire.jpg);
+    background: #a9a7a7;
+    /*background: repeat center / cover url(ressources/arbre_solitaire.jpg);*/
     font-family: 'Manrope', sans-serif;
 }
  nav{
@@ -17,11 +18,12 @@ body{
     width: 100%;
     background-color: lavender	;
     cursor: pointer;
+    
 } 
 ul{
     width: 100%;
     text-align: left;
-    margin-left: 20px;
+    margin-left: 50px;
 }
 nav ul li{
     display: inline-block;
