@@ -41,7 +41,7 @@ li{
 }
  li a::after{
     content: "";
-    display: block;
+    display:block;
     width: 0px;
     margin: 0px 0 0 0;
     height: 3px;
@@ -75,7 +75,7 @@ h2.cligne{
     40%   {opacity:0; }
     100% { opacity:1; }
   }
-#bande_horizontale{
+.bande_horizontale{
     padding: 0px;
     margin: auto;
     border: none;
@@ -93,6 +93,13 @@ h6{
     margin-left: 10px;
     margin-right: 20px;
     color: rgb(243, 34, 34);
+}
+.boxaccueil{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-between;
 }
 .box{
         display: inline-block;
