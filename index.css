@@ -75,6 +75,7 @@ h6{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    align-items: stretch;
     justify-content: center;
     align-content: space-between;
 }
@@ -87,7 +88,7 @@ h6{
         background: #fff;
         padding: 20px;
         margin: 20px;
-        box-shadow: 10px 5px 5px White;
+        
 }
 .box:hover{
     transform: skewY(0deg);
@@ -102,11 +103,11 @@ h6{
         background: #bea410;  
         position: relative;
         vertical-align: middle;
-        border-radius: 30px ;
+        border-radius: 10px ;
         border:  5px  solid;
         transform: skewY(-20deg);
         border-color: white;
-        box-shadow: 1px 1px  10px 1px rgb(164, 162, 164);
+        box-shadow: -10px 1px  15px 10px white;
     }
     .c1:hover{
         box-shadow: 1px 1px 10px 1px whitesmoke;
@@ -116,7 +117,7 @@ h6{
         background: rgb(221, 214, 183);
         position: relative;
         vertical-align: middle;
-        border-radius:5px ;
+        border-radius:10px ;
         border:  5px  solid;
         transform: skewY(0deg);
         border-color: whitesmoke;
@@ -124,6 +125,7 @@ h6{
         animation-iteration-count: 2;
         animation-duration: 3s;
         transition-timing-function: linear;
+        box-shadow: 0px -8px  15px 1px rgb(234, 224, 89);
     }
     @keyframes tour{
         0% {
@@ -138,11 +140,11 @@ h6{
         background: #bea410;
         position: relative;
         vertical-align: middle;
-        border-radius: 30px  ;
+        border-radius: 10px  ;
         border:  5px  solid;
         transform: skewY(20deg);
         border-color: white;
-        box-shadow: 15px 5px 15px 5px White;
+        box-shadow: 10px 1px 15px 10px White;
     } 
     .box a{text-decoration: none;
         color: black;
