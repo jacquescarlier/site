@@ -28,11 +28,19 @@ h2{
 p{
     font-family: 'Poppins', sans-serif;
 }
+.boxoise{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-between;
+}
 .box2d{
-    display: inline-block;
+   
     width: 100px;
     height: 20px;
     padding: 15px;
+    margin: 20px;
     /*mix-blend-mode: multiply;*/
     background: rgb(155, 116, 57) ;  
     border-radius: 30px;
@@ -47,20 +55,21 @@ p{
     background: rgb(210, 210, 214);
    /* box-shadow: 0px 8px rgb(160, 123, 12);*/
 }
+
 .boxtext0{
     display: inline-block;
     width: 280px;
-    height: auto;
     margin: 10px;
     padding: 5px;
     background: no-repeat center / cover url(ressources/Château-de-Chantilly.jpg) ;
     background-clip: border-box;
     text-align: left;
     color: black;
-    font-weight: 400;
+   font-weight: 400;
     border: 4px solid;
     border-color: rgb(1, 2, 19);
     box-sizing: border-box;
+    
 }
 .boxtext0:hover{
     color: black;
@@ -81,11 +90,11 @@ p{
 }
 .boxtext1:hover{
     background: burlywood;
+
 }
 .boxtext2{
     display: inline-block;
     width: 280px;
-    /*height: auto;*/
     margin: 10px;
     padding: 5px;
     background:no-repeat center / cover url(ressources/chateau-pierrefonds.jpg) ;
@@ -103,7 +112,6 @@ p{
 .boxtext3{
     display: inline-block;
     width: 280px;
-   /* height: 250;*/
     margin: 10px;
     padding: 5px;
     background:no-repeat center / cover url(ressources/chaalis.jpg);
@@ -121,7 +129,6 @@ p{
 .boxtext4{
     display: inline-block;
     width: 280px;
-    /*height: auto;*/
     margin: 10px;
     padding: 5px;
     background:no-repeat center / cover url(ressources/cathedraledebeauvais.jpg) ;
@@ -139,7 +146,6 @@ p{
 .boxtext5{
     display: inline-block;
     width: 280px;
-    /*height: auto;*/
     margin: 10px;
     padding: 5px;
     background:no-repeat center / cover url(ressources/Etangs-de-Comelles.jpg) ;
