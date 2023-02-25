@@ -96,7 +96,7 @@ h6{
     border: 2px solid;
     border-color: #333;
     transform: scale(1.25);
-    background-color: whitesmoke;
+    background-color: black;
 }
     .c1{
         display: inline-block;
@@ -108,9 +108,6 @@ h6{
         transform: skewY(-20deg);
         border-color: white;
         box-shadow: -10px 1px  15px 10px white;
-    }
-    .c1:hover{
-        box-shadow: 1px 1px 10px 1px whitesmoke;
     }
    .c2{
     display: inline-block;
@@ -130,6 +127,8 @@ h6{
     @keyframes tour{
         0% {
             transform: rotate(0deg);
+            background-color: black;
+
         }
         100% { 
             transform: rotate(360deg);
@@ -147,7 +146,7 @@ h6{
         box-shadow: 10px 1px 15px 10px White;
     } 
     .box a{text-decoration: none;
-        color: black;
+        color: white;
         font-size: 19px;
     }
     .box a:hover{
