@@ -45,7 +45,6 @@ body{
         background: black;
         transition: width 0.2s ease-out;
     }
-    
     li a:hover::after{
     width: 100%;
     }
