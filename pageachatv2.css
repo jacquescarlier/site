@@ -12,19 +12,25 @@ h1{
     text-align: center;
     color:yellow;
 }
+article{
+    margin-bottom: 20px;
+    margin-top: 10px;
+    text-align: center;
+    color:blue;
+    font-style: oblique;
+    font-weight: 800;
+}
 .e h6{
     text-align: right;
     margin-right: 10px;
     color: red;
 }
-
 .principal{
     display: grid;
     grid-template-columns:1fr 1fr 1fr 1fr 1fr 80px;
     grid-template-rows: 70px 150px 150px 100px 70px;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     gap: 10px;
-
 }
 .g img
  {
@@ -59,7 +65,6 @@ h1{
     height: 30px;
     padding: 5px;
     margin: 20px;
-    /*mix-blend-mode: multiply;*/
     background: rgb(155, 116, 57) ;  
     border-radius: 30px;
     font-size: 14px;
@@ -67,11 +72,9 @@ h1{
     text-align: center;
     border: 2px solid;
     border-color: rgb(236, 213, 37);
-   /* box-shadow: 0px 6px rgb(160, 123, 12);*/
 }
   .box2d:hover{
     background: rgb(80, 80, 81);
-   /* box-shadow: 0px 8px rgb(160, 123, 12);*/
 }
 .a{
     grid-column-start: 1;
@@ -120,6 +123,7 @@ width: 70%;
     text-align: center;
     background: rgb(168, 171, 168);
     border-radius: 10px;
+    
 }
 .c:hover{
     background: black;
@@ -152,19 +156,14 @@ text-align: center;
 }
 .e:hover {
     background-color: rgb(33, 4, 95);
-   
 }
 .f{
     grid-column-start: 6;
     grid-column-end: 6;
     grid-row-start:2;
     grid-row-end: 5;
-   
-    background-color: whitesmoke;
-    display: flex;
-    justify-content: center; /* align horizontal */
-    align-items: center; /* align vertical */
-    padding: 10px
+    border-radius: 10px;
+    background-color: rgb(70, 54, 105);
 }
 .g{
     grid-column-start: 4;
@@ -180,8 +179,15 @@ text-align: center;
     grid-row-start:5;
     grid-row-end: 5;
     text-align: center;
+    vertical-align:middle;
+    line-height: 40px;
     background: rgb(53, 53, 53);
     border-radius: 20px;
+}
+ol li{
+    margin: 15px;
+    text-align: center;
+    list-style: none;
 }
 ul li{
     display: inline-block;
@@ -191,5 +197,5 @@ ul li{
 ul li a{
     text-decoration: none;
     color: white;
-    padding-right: 15px;
+    /*padding-right: 15px;*/
 }
