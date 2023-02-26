@@ -22,6 +22,7 @@ h1{
     display: grid;
     grid-template-columns:1fr 1fr 1fr 1fr 1fr 80px;
     grid-template-rows: 70px 150px 150px 100px 70px;
+    flex-wrap: wrap;
     gap: 10px;
 
 }
