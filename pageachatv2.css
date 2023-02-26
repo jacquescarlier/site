@@ -193,6 +193,7 @@ ul li{
     display: inline-block;
     margin: 15px;
     text-align: center;
+    list-style: none;
 }
 ul li a{
     text-decoration: none;
