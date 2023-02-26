@@ -33,7 +33,7 @@ h1{
   object-fit: cover;
   border-radius: 30px;
 }
-img:hover{
+.g img:hover{
     animation: tour;
     animation-iteration-count: 1;
     animation-duration: 2s;
@@ -53,6 +53,26 @@ img:hover{
     text-align: center;
     margin-left: 0px;
 }
+.box2d{
+   
+    width: 100px;
+    height: 30px;
+    padding: 5px;
+    margin: 20px;
+    /*mix-blend-mode: multiply;*/
+    background: rgb(155, 116, 57) ;  
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+    border: 2px solid;
+    border-color: rgb(236, 213, 37);
+   /* box-shadow: 0px 6px rgb(160, 123, 12);*/
+}
+  .box2d:hover{
+    background: rgb(80, 80, 81);
+   /* box-shadow: 0px 8px rgb(160, 123, 12);*/
+}
 .a{
     grid-column-start: 1;
     grid-column-end: 7;
@@ -61,6 +81,11 @@ img:hover{
     text-align: center;
     background: rgb(53, 53, 53);
     border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-between;
 
 }
 .a li a::after{
