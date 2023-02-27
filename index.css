@@ -152,10 +152,17 @@ h6{
     .box a:hover{
         box-shadow: 10px 5px 5px violet;
     }
+    ol li{
+        list-style: none;
+        margin-top: 10px;
+    }
     h2{
         font-style: italic;
         color: red;
         margin-bottom: 10px;
+    }
+    h3{
+        margin-bottom: 20px;
     }
     h2.cligne{
         animation-duration: .8s;
