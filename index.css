@@ -84,6 +84,7 @@ h6{
         justify-content: space-between;
         flex-direction: row;
         width: 300px;
+        text-align: center;
         /*height: auto;*/
         background: #fff;
         padding: 20px;
