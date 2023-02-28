@@ -311,7 +311,7 @@ footer{
         
     }
     nav a {
-        margin-left:10px ;
+        margin-left:30px ;
       }
     ul{
         width: 100%;
@@ -327,7 +327,7 @@ footer{
     nav ul li a{
         text-decoration: none;
         color: black;
-        font-size: 10px;
+        
     }
     li{
         margin-top: 10px;
@@ -335,7 +335,7 @@ footer{
     .navigauche li a::after{
         content: "";
         display:flex;
-        width: auto;
+        width: 0px;
         margin: 0px auto 0 auto;
         height: 1px;
         background: rgb(241, 239, 239);
@@ -383,7 +383,7 @@ nav ul li{
 nav ul li a{
     text-decoration: none;
     color: black;
-    font-size: 6px;
+    font-size: 14px;
 }
 li{
     margin-top: 10px;
@@ -391,7 +391,7 @@ li{
 .navigauche li a::after{
     content: "";
     display:flex;
-    width: 0px;
+    width: auto;
     margin: 0px auto 0 auto;
     height: 1px;
     background: rgb(241, 239, 239);
@@ -431,7 +431,7 @@ visibility: hidden;
 .box2d a::after{
         content: "";
         display: block;
-        width: 0px;
+        width: auto;
         margin: 2px auto 0 auto;
         height: 2px;
         background: red;
