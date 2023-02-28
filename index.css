@@ -294,3 +294,154 @@ footer{
         left: 0;
         right: 0;
 }
+@media only screen and (max-width: 1200px) {
+    body {
+     
+      text-align: center;
+       }
+      nav{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        height: auto;
+        width: auto;
+        background-color: lavender	;
+        cursor: pointer;
+        
+    }
+    nav a {
+        margin-left:30px ;
+      }
+    ul{
+        width: 100%;
+        text-align: left;
+        margin-left:auto;
+    }
+    nav ul li{
+        display: inline-block;
+        line-height:auto ;
+        margin: auto ;
+       
+    }
+    nav ul li a{
+        text-decoration: none;
+        color: black;
+        font-size: 6px;
+    }
+    li{
+        margin-top: 10px;
+    }
+    .navigauche li a::after{
+        content: "";
+        display:flex;
+        width: 0px;
+        margin: 0px auto 0 auto;
+        height: 1px;
+        background: rgb(241, 239, 239);
+        transition: width 0.2s ease-out;
+    }
+    .navigauche li a:hover::after{
+    width: 120%;
+    }
+    h1{
+        visibility: hidden;
+
+  }
+  .navidroite{
+    visibility: hidden;
+
+  }
+}
+@media only screen and (max-width: 600px) {
+body{text-align: center;}
+nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    width: auto;
+    background-color: lavender	;
+    cursor: pointer;
+    
+}
+nav a {
+    margin-left:30px ;
+  }
+ul{
+    width: auto;
+    text-align: left;
+    margin-left:auto;
+}
+nav ul li{
+    display: inline-block;
+    line-height:auto ;
+    margin: auto ;
+   
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 6px;
+}
+li{
+    margin-top: 10px;
+}
+.navigauche li a::after{
+    content: "";
+    display:flex;
+    width: 0px;
+    margin: 0px auto 0 auto;
+    height: 1px;
+    background: rgb(241, 239, 239);
+    transition: width 0.2s ease-out;
+}
+.navigauche li a:hover::after{
+width: 120%;
+}
+h1{
+    visibility: hidden;
+
+}
+.navidroite{
+visibility: hidden;
+
+}
+.box2d{
+    display: inline-block;
+    width: 80px;
+    height: 30px;
+    padding: 10px;
+    margin: 10px;
+    margin-bottom: 10px;
+    background: rgb(180, 178, 178);  
+    border-radius: 10px;
+    font-size: 6px;
+    text-align: center;
+    color: azure;
+    border: 2px solid;
+    border-color: darkgray;
+    box-shadow: 0px 6px gray;
+    
+  }
+  .box2d:hover{
+    background: rgb(210, 210, 214);
+    box-shadow: 0px 8px gray;}
+.box2d a::after{
+        content: "";
+        display: block;
+        width: 0px;
+        margin: 2px auto 0 auto;
+        height: 2px;
+        background: red;
+        transition: width 0.2s ease-out;
+    }
+    
+    .box2d a:hover::after{
+    width: 100%;
+    }
+
+
+
+}
