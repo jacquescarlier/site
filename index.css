@@ -98,7 +98,7 @@ h6{
     transform: scale(1.25);
     background-color: black;
 }
-    .c1{
+    .linux{
         display: inline-block;
         background: #bea410;  
         position: relative;
@@ -109,7 +109,7 @@ h6{
         border-color: white;
         box-shadow: -10px 1px  15px 10px white;
     }
-   .c2{
+   .images{
     display: inline-block;
         background: rgb(221, 214, 183);
         position: relative;
@@ -134,7 +134,7 @@ h6{
             transform: rotate(360deg);
         }
     }
-   .c3{
+   .html{
     display: inline-block;
         background: #bea410;
         position: relative;
