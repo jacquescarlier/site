@@ -21,7 +21,7 @@ nav{
     align-items: center;
     justify-content: space-between;
     height: 70px;
-    width: 100%;
+    width: auto;
     background-color: lavender	;
     cursor: pointer;
     padding-top: 30px;
@@ -30,7 +30,7 @@ nav a {
     margin-left:30px ;
   }
 ul{
-    width: 100%;
+    width: auto;
     text-align: left;
     margin-left: 10px;
 }
@@ -73,8 +73,10 @@ h3{
    font-style: italic;
 }
 h5{
-    margin-top: 10px;
+    margin-top: 5px;
     margin-bottom: 10px;
+    text-align: center;
+    
 }
 h6{
     font-style: italic;
