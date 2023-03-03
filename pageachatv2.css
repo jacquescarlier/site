@@ -6,7 +6,7 @@
     font-family: Arial, Helvetica, sans-serif;
 } 
 body{
-    background:gray;
+    background:rgb(237, 235, 240) ;
 }
 h1{
     text-align: center;
@@ -163,7 +163,7 @@ text-align: center;
     grid-row-start:2;
     grid-row-end: 5;
     border-radius: 10px;
-    background-color: rgb(70, 54, 105);
+    background-color: rgb(168, 171, 168);
 }
 .g{
     grid-column-start: 4;
