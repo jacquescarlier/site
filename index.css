@@ -64,6 +64,18 @@ h1{
     margin-top: 15px;
     margin-bottom:30px;
 }
+h2{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+h3{
+   text-decoration: underline;
+   font-style: italic;
+}
+h5{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 h6{
     font-style: italic;
     font-size: 10px;
@@ -97,9 +109,9 @@ h6{
     transform: skewY(0deg);
     box-shadow: 10px 5px 5px rgb(164, 162, 164);
     border: 2px solid;
-    border-color: #333;
+    border-color: #bfbdbd;
     transform: scale(1.25);
-    background-color: black;
+    background-color: rgb(209, 205, 205);
 }
     .linux{
         display: inline-block;
@@ -108,7 +120,7 @@ h6{
         vertical-align: middle;
         border-radius: 10px ;
         border:  5px  solid;
-        transform: skewY(-20deg);
+        /*transform: skewY(-20deg);*/
         border-color: white;
         box-shadow: -10px 1px  15px 10px white;
     }
@@ -130,7 +142,7 @@ h6{
     @keyframes tour{
         0% {
             transform: rotate(0deg);
-            background-color: black;
+            background-color: rgb(105, 102, 102);
 
         }
         100% { 
@@ -144,12 +156,12 @@ h6{
         vertical-align: middle;
         border-radius: 10px  ;
         border:  5px  solid;
-        transform: skewY(20deg);
+       /* transform: skewY(20deg);*/
         border-color: white;
         box-shadow: 10px 1px 15px 10px White;
     } 
     .box a{text-decoration: none;
-        color: white;
+        color: rgb(19, 19, 19);
         font-size: 19px;
     }
     .box a:hover{
@@ -215,8 +227,8 @@ h6{
             display: block;
             width: 0px;
             margin: 2px auto 0 auto;
-            height: 2px;
-            background: red;
+            height: 4px;
+            background: rgb(234, 232, 232);
             transition: width 0.2s ease-out;
         }
         
@@ -294,7 +306,7 @@ footer{
         left: 0;
         right: 0;
 }
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1024px) {
     body {
      
       text-align: center;
@@ -353,7 +365,7 @@ footer{
 
   }
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 640px) {
 body{text-align: center;}
 nav{
     display: flex;
@@ -428,15 +440,7 @@ visibility: hidden;
   .box2d:hover{
     background: rgb(210, 210, 214);
     box-shadow: 0px 8px gray;}
-.box2d a::after{
-        content: "";
-        display: block;
-        width: auto;
-        margin: 2px auto 0 auto;
-        height: 2px;
-        background: red;
-        transition: width 0.2s ease-out;
-    }
+
     
     .box2d a:hover::after{
     width: 100%;
