@@ -1,4 +1,28 @@
 body{
     font-family: 'Montserrat', sans-serif;
-    background:  center / cover url('/ressouces/photos/notredamesaigon.jpg');
+    background:  center / cover url('/ressources/photos/notredamesaigon.jpg');
+}
+.visitersaigon{
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+width: 45%;
+height: 55%;
+background: white;
+color: black;
+padding: 20px;
+position: absolute;
+right: 20px;
+overflow: scroll;
+}
+.visitersaigon ol li{
+    list-style-type: circle;
+}
+h2{
+    text-align: center;
+}
+.premierparagraphe, .deuxiemeparagraphe, .propositions{
+    display: flex;
+    flex-direction: column;
+
 }
