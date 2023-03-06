@@ -17,13 +17,12 @@ nav{
     height: 70px;
     width: 100%;
     background: #dad6d6;
-   opacity: 0.75;
+    opacity: 0.75;
 }
 nav ul{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-
     padding: 15px;
     margin-left: 20px;
 }
@@ -42,7 +41,7 @@ nav ul li{
 }
 .footer{
     position: absolute;
-    bottom: 5px;
+    bottom: 0px;
     right: 5px;
     font-size: 12px;
     font-weight: 700;
@@ -63,4 +62,14 @@ nav ul li{
 .footer ul li a{
     color: white;
     font-size: 80%;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 15px;
+    margin-left: 20px;
+}
+ul li{
+    list-style: none;
 }
