@@ -1,0 +1,33 @@
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    margin-top: 0px;
+    
+} 
+body{
+    
+    background:  center / contain url('../ressources/photos/mekong.jpg');
+}
+.tableaucircuits{
+    margin-left: 80px;
+    table-layout: auto;
+    border-collapse: collapse;
+    border: 4px solid rgb(233, 12, 12);
+    background:wheat;
+    border-spacing: 0px;
+    opacity: 0.9;
+    margin-top: 20px;
+    vertical-align: middle;
+   
+}
+td{
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    border: 1px solid rgb(239, 107, 107);
+}
+tr{
+    border: 2px solid red;
+}
