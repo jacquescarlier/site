@@ -1,0 +1,44 @@
+.minibarrehorizontale{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    padding: 0px;
+    margin: auto;
+    border: none;
+    width: 5%;
+    height: 5px;
+    background-color: rgb(16, 16, 16);
+}
+.minibarrehorizontale2{
+    position: absolute;
+    top: 15px;
+    right: 5px;
+    padding: 0px;
+    margin: auto;
+    border: none;
+    width: 5%;
+    height: 5px;
+    background-color: rgb(16, 16, 16);
+}
+.minibarrehorizontale3{
+    position: absolute;
+    top: 25px;
+    right: 5px;
+    padding: 0px;
+    margin: auto;
+    border: none;
+    width: 5%;
+    height: 5px;
+    background-color: rgb(16, 16, 16);
+}
+.minibarrehorizontale4{
+    position: absolute;
+    top: 35px;
+    right: 5px;
+    padding: 0px;
+    margin: auto;
+    border: none;
+    width: 5%;
+    height: 5px;
+    background-color: rgb(16, 16, 16);
+}

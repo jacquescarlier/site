@@ -1,0 +1,21 @@
+ul li h1{
+    animation: tour;
+    animation-iteration-count: 1;
+    animation-duration: 2s;
+   
+    
+}
+@keyframes tour{
+    25% {
+        transform-origin: -100% 0;
+        transform: rotate(0deg); 
+        color: blue;
+    }
+    50%{
+        transform: rotate(90deg);
+        color: white;
+    }
+    100% { 
+        transform: rotate(360deg);
+        color: red;
+    }
