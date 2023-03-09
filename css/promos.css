@@ -3,7 +3,22 @@
     margin: 0px;
     padding: 0;
 }
-
-    body{
+body{
+        font-family: 'Montserrat', sans-serif;
         background:  center / cover url('../ressources/photos/pho.jpg');
-    }
+}
+nav{
+       background: transparent;
+}
+.promos a{
+        height: auto;
+        width: auto;
+        padding: 10px;
+        color: rgb(213, 33, 33);
+        font-weight: 900;
+        border: 4px solid rgb(213, 33, 33);
+        border-radius: 30px;
+}
+    .promos a:hover{
+        background: white;
+}
