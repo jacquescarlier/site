@@ -8,7 +8,7 @@ body{
     width: auto;
     /*margin: -40px;*/
     background: rgb(56, 61, 56);
-    background: center / cover url(../ressources/img3.jpg);
+    background: center / cover url(../ressources/bg-shopping.jpg);
     background-position: top;
     background-repeat: repeat;
     text-align: center;
