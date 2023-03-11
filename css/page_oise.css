@@ -61,7 +61,7 @@ p{
     width: 280px;
     margin: 10px;
     padding: 5px;
-    background: no-repeat center / cover url(../ressources/Château-de-Chantilly.jpg) ;
+    background: no-repeat center / cover url(../ressources/photos-oise/Château-de-Chantilly.jpg) ;
     background-clip: border-box;
     text-align: left;
     color: black;
@@ -80,7 +80,7 @@ p{
     width: 280px;
     margin: 10px;
     padding: 5px;
-    background:no-repeat center / cover url(../ressources/palaisdecompiegne.jpg) ;
+    background:no-repeat center / cover url(../ressources/photos-oise/palaisdecompiegne.jpg) ;
     background-clip: border-box;
     text-align: left;
     color: black;
@@ -97,7 +97,7 @@ p{
     width: 280px;
     margin: 10px;
     padding: 5px;
-    background:no-repeat center / cover url(../ressources/chateau-pierrefonds.jpg) ;
+    background:no-repeat center / cover url(../ressources/photos-oise/chateau-pierrefonds.jpg) ;
     background-clip: border-box;
     text-align: botton;
     color: black;
@@ -114,7 +114,7 @@ p{
     width: 280px;
     margin: 10px;
     padding: 5px;
-    background:no-repeat center / cover url(../ressources/chaalis.jpg);
+    background:no-repeat center / cover url(../ressources/photos-oise/chaalis.jpg);
     background-clip: border-box;
     text-align: left;
     color: black;
@@ -131,7 +131,7 @@ p{
     width: 280px;
     margin: 10px;
     padding: 5px;
-    background:no-repeat center / cover url(../ressources/cathedraledebeauvais.jpg) ;
+    background:no-repeat center / cover url(../ressources/photos-oise/cathedraledebeauvais.jpg) ;
     background-clip: border-box;
     text-align: botton;
     color: black;
@@ -148,7 +148,7 @@ p{
     width: 280px;
     margin: 10px;
     padding: 5px;
-    background:no-repeat center / cover url(../ressources/Etangs-de-Comelles.jpg) ;
+    background:no-repeat center / cover url(../ressources/photos-oise/Etangs-de-Comelles.jpg) ;
     background-clip: border-box;
     text-align: botton;
     color: black;
