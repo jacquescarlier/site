@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stacer</title>
+    <link rel="stylesheet" href="../css/stacer.css">
+</head>
+<body>
+    <div class="accueil1">
+        <h1> Surveiller, nettoyer et optimiser linux avec Stacer</h1>
+        <p>Vous cherchez des moyens d’optimiser votre système Linux et de le faire fonctionner plus rapidement ? Il existe de nombreuses façons et outils pour vous de le faire, et Stacer comprend tout ce dont vous avez besoin pour surveiller, nettoyer et optimiser votre installation Linux. Voyons voir comment ça fonctionne.</p>
+        <h4>Sommaire</h4>
+        <ol>
+            <li><a href="#install">Installation</a></li>
+            <li><a href="#tpsreel">Information en temps réel</a></li>
+            <li><a href="#apps">Applications et services de démarrage</a></li>
+            <li><a href="#nettoyage">Nettoyage de disque</a></li>
+            <li><a href="#gerer">Gérer les packages et les référentiels</a></li>
+        </ol>
+        <h2><a id="install">Installation </a></h2>
+        <p>Sur Ubuntu, vous pouvez installer Stacer avec :</p>
+        <p><span>sudo apt install</span> stacer</p>
+        <p>Les fans d’Arch devront se tourner vers AUR pour son installation.<br>
+
+            Sur Fedora et Red Hat, vous pouvez télécharger le fichier RPM de Stacer de sa page de versions puis installez-le avec :</p><br>
+        <p><span>sudo rpm --install stacer*.rpm --nodeps --force</span></p>
+        <p>Cependant, il est probablement plus facile d’utiliser DNF :</p>
+        <p><span>sudo dnf install</span> stacer</p>
+        <p>Une fois son installation terminée, vous pouvez le trouver parmi le reste de votre logiciel installé et le lancer ou utiliser la commande stacer dans un terminal.</p><br>
+        <div class="boxstacer"><img src="ressources/Stacer.jpg">
+        </div>
+        <h2><a id="tpsreel">Informations en temps réel </a></h2>
+        <p>L’interface de Stacer propose une dizaine de pages différentes, accessibles via une liste d’icônes à gauche de sa fenêtre. La première page, qui vous accueille lorsque vous exécutez Stacer pour la première fois, présente des informations en temps réel sur votre utilisation du processeur, de la mémoire, du disque et de la bande passante. Ceux-ci sont accompagnés d’informations statiques sur votre système, comme votre nom d’hôte et votre noyau, dans le coin inférieur gauche.</p>
+        <div class="boxstacer"><img src="ressources/Stacer_tempsreel.jpg">
+        </div>
+        <p>Votre utilisation du processeur, de la mémoire et du disque est-elle trop élevée ? Vous aurez probablement besoin de visiter le reste des pages de Stacer pour une maintenance.</p>
+        <h2><a id="apps">Applications et services de démarrage</a></h2>
+        <p>La deuxième page, avec une icône de fusée, vous permet de gérer les applications de démarrage après vous être connecté à votre bureau. Vous pouvez également ajouter de nouvelles applications que vous souhaitez démarrer automatiquement en utilisant le bouton bleu « Ajouter une application de démarrage » en bas à droite de la fenêtre.</p>
+        <p>Dans notre cas, cette fenêtre n’affichait rien car aucune application ne démarrait automatiquement.</p>
+        <div class="boxstacer"><img src="ressources/Stacer_appsaudemarrage.jpg">
+        </div>
+        <p>La page Services, accessible via la cinquième icône avec les deux engrenages, est similaire en ce sens qu’elle vous permet d’activer ou de désactiver des éléments qui démarrent automatiquement. Au lieu d’applications, cependant, comme son titre l’indique, il s’agit de services.</p>
+        <p>Vous pouvez utiliser les deux menus déroulants en haut pour que la liste n’affiche que les services actifs ou inactifs et utiliser les deux commutateurs à droite de chaque service pour l’activer ou le désactiver. Le premier commutateur contrôle si le service démarre automatiquement. La seconde permet de démarrer et d’arrêter des services à volonté.</p>
+        <p>Assurez-vous de savoir à quoi sert chaque service que vous désactivez. Certains sont cruciaux pour que le système d’exploitation lui-même soit opérationnel.</p>
+        <div class="boxstacer"><img src="ressources/Stacer_services.jpg">
+        </div>
+        <h2><a id="nettoyage">Nettoyage de disque</a></h2>
+        <p>Avec Stacer, il est facile de récupérer une partie de votre précieux stockage occupé par des fichiers inutiles. Visitez la troisième page de Stacer, System Cleaner, avec l’icône du pinceau.</p>
+        <div class="boxstacer"><img src="ressources/Stacer_cleaner.jpg">
+        </div>
+        <p>Activez ce que vous souhaitez que le programme nettoie en cliquant sur l’icône de coche sous chaque catégorie. Sinon, pour activer tous les types de nettoyage, cliquez sur « Tout sélectionner » au bas de cette page.</p>
+        <div class="boxstacer"><img src="ressources/Stacer_packagecaches.jpg">
+        </div>
+        <p>Cliquez sur le bouton avec la loupe pour que Stacer localise ces fichiers inutiles. Au bout d’un moment, Stacer présentera un rapport. Vérifiez les résultats et sélectionnez ce que vous souhaitez supprimer en cliquant sur la coche à gauche de chaque entrée ».</p>
+        <div class="boxstacer"><img src="ressources/Stacer-packagecachesresultat.jpg">
+        </div>
+        <p>Comme auparavant, il existe également une option « Sélectionner tout » en bas à gauche de la liste pour tout marquer pour le nettoyage en un clic. Nous vous suggérons cependant de parcourir la liste, car elle pourrait contenir un journal ou un package que vous souhaiterez peut-être conserver. Pour tout supprimer dans la liste System Cleaner de Stacer, cliquez sur le gros bouton bleu circulaire avec le pinceau en bas de la fenêtre.</p>
+        <h2><a id="gerer">Gérer les packages et les référentiels</a></h2>
+        <p>La septième icône vous amènera à la page de désinstallation de Stacer, où vous pourrez supprimer les packages installés. Si vous utilisez également des packages snap, Stacer les listera dans une liste secondaire, accessible à partir d’un bouton en haut à gauche. Il propose également une fonction de recherche en haut à droite pour vous aider à localiser des packages spécifiques.</p>
+        <div class="boxstacer"><img src="ressources/Stacer_localiserpackages.jpg">
+        </div>
+        <p>Pour désinstaller un package, sélectionnez-le en cliquant sur la coche à sa gauche, puis cliquez sur le bouton « Désinstaller la sélection » en bas au centre de la fenêtre. Notez que vous pouvez également sélectionner plusieurs packages.</p>
+        <div class="boxstacer"><img src="ressources/Stacer_desinstallerpackages.jpg">
+        </div>
+        <p>Sautez deux icônes, et si vous cliquez sur la dixième icône, avec une approximation approximative d’un classeur, vous rencontrerez le gestionnaire de référentiel APT de Stacer. Vous pouvez contrôler toutes vos sources logicielles à partir de cet endroit.</p>
+        <div class="boxstacer"><img src="ressources/Stacer_sourceslogiciels.jpg">
+        </div>
+        <p>Comme dans les pages précédentes, vous pouvez activer ou désactiver un référentiel en cliquant sur l’icône de commutateur à droite de son entrée. Deux boutons en bas à gauche vous permettent de modifier ou de supprimer l’entrée sélectionnée. Un bouton « Ajouter un référentiel » en bas à droite vous permet de l’étendre avec plus de référentiels.</p><br>
+        <p>Lorsque vous essayez de quitter Stacer, il vous demandera si vous souhaitez le réduire dans la barre d’état système. Comme il consomme plus de ressources que top dans un terminal ou un widget de panneau de bureau pour surveiller votre système, nous ne trouvons aucune raison de laisser Stacer fonctionner en arrière-plan.</p>
+        <div class="boxstacer"><img src="ressources/Stacer_arrriereplan.jpg">
+        </div>
+        <p>Stacer vous offre le contrôle d’encore plus d’aspects de votre système. Néanmoins, nous considérons que ceux-ci sont plus importants pour le nettoyage et le maintien de votre distribution en bon état de fonctionnement.</p>
+        <p>Si vous utilisez Linux, voici quelques façons de maintenir une machine Ubuntu propre et légère.</p>
+
+
+
+</body>
+</html>
