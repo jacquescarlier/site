@@ -1,6 +1,6 @@
 body{
     font-family: 'Montserrat', sans-serif;
-    background:  center / contain url('../ressources/photos/notredamesaigon.jpg');
+    background:  center / cover url('../ressources/photos-vietnam/notredamesaigon.jpg');
 }
 .visitersaigon{
 display: flex;
