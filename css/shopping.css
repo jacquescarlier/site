@@ -63,6 +63,14 @@ h6 {
   color: red;
   font-style: italic;
 }
+a{
+  text-decoration: none;
+}
+p{
+  font-style: normal;
+  text-decoration: none;
+  color: black;
+}
 .boxfashion {
   display: inline-block;
   width: 300px;
@@ -81,6 +89,10 @@ h6 {
 .boxfashion:hover {
   background: whitesmoke;
 }
+.boxfashion:active{
+
+}
+
 .boxzalando {
   display: inline-block;
   width: 300px;
@@ -214,8 +226,11 @@ h6 {
 .boxsneakers:hover {
   background: whitesmoke;
 }
-a {
+h3{
   font-style: normal;
   font-weight: bolder;
   color: blue;
+  text-decoration: underline;
+  margin: 10px;
 }
+
