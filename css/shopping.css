@@ -1,219 +1,221 @@
-*, ::before, ::after {
-    box-sizing: border-box;
-    margin: 0px;
-    padding: 0;
-    }
-body{
-    height: 100vh;
-    width: auto;
-    /*margin: -40px;*/
-    background: rgb(56, 61, 56);
-    background: center / cover url(../ressources/bg-shopping.jpg);
-    background-position: top;
-    background-repeat: repeat;
-    text-align: center;
-    font-family: 'Varela Round', sans-serif;
-    }
-    nav{
-        height: 70px;
-        width: 100%;
-        background-color: lavender	;
-    } 
-    ul{
-        width: 100%;
-        text-align: center;
-    }
-    nav ul li{
-        display: inline-block;
-        line-height:70px ;
-        margin: 0 10px;
-    }
-    nav ul li a{
-        text-decoration: none;
-        color: black;
-        font-size: 19px;
-    }
-    li{
-        margin-top: 10px;
-    }
-    li a::after{
-        content: "";
-        display: block;
-        width: 0px;
-        margin: 0px 0 0 0;
-        height: 3px;
-        background: black;
-        transition: width 0.2s ease-out;
-    }
-    li a:hover::after{
-    width: 100%;
-    }
-h1{
-    font-size: 60px;
-    font-weight: 900;
-    color: aliceblue;
-    text-align: center;
-    text-decoration-line: underline;
-    font-family: 'Times New Roman', Times, serif;
-    background: #171817; 
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
-h6{
-    color: red;
-    font-style: italic;
+body {
+  height: 100vh;
+  width: auto;
+  /*margin: -40px;*/
+  background: rgb(56, 61, 56);
+  background: center / cover url(../ressources/bg-shopping.jpg);
+  background-position: top;
+  background-repeat: repeat;
+  text-align: center;
+  font-family: "Varela Round", sans-serif;
 }
-.boxfashion{
-    display: inline-block;
-    width: 300px;
-    height: auto;
-    padding: 20px;
-    background-color: beige;
-    opacity: 0.75;
-    font-style: italic;
-    color: black;
-    border: 2px solid;
-    border-color: blue;
-    margin: 30px;
-    border-radius: 30px;
-    box-sizing: border-box;
+nav {
+  height: 70px;
+  width: 100%;
+  background-color: lavender;
 }
-.boxfashion:hover{
-    background: whitesmoke;
+ul {
+  width: 100%;
+  text-align: center;
 }
-.boxzalando{
-    display: inline-block;
-    width: 300px;
-    height: auto;
-    padding: 20px;
-    opacity: 0.75;
-    background-color: beige;
-    font-style: italic;
-    color: black;
-    border: 2px solid;
-    border-color: blue;
-    margin: 30px;
-    border-radius: 30px;
-    text-align: center;
-    box-sizing: border-box;
+nav ul li {
+  display: inline-block;
+  line-height: 70px;
+  margin: 0 10px;
 }
-.boxzalando:hover{
-    background: whitesmoke;
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 19px;
 }
-.boxasos{
-    display: inline-block;
-    width: 300px;
-    height: auto;
-    padding: 20px;
-    background-color: beige;
-    opacity: 0.75;
-    font-style: italic;
-    color: black;
-    border: 2px solid;
-    border-color: blue;
-    margin: 30px;
-    border-radius: 30px;
-    text-align: center;
-    box-sizing: border-box;
+li {
+  margin-top: 10px;
 }
-.boxasos:hover{
-    background: whitesmoke;
+li a::after {
+  content: "";
+  display: block;
+  width: 0px;
+  margin: 0px 0 0 0;
+  height: 3px;
+  background: black;
+  transition: width 0.2s ease-out;
 }
-.boxedel{
-    display: inline-block;
-    width: 300px;
-    height: auto;
-    padding: 20px;
-    background-color: beige;
-    opacity: 0.75;
-    font-style: italic;
-    color: black;
-    border: 2px solid;
-    border-color: blue;
-    margin: 30px;
-    border-radius: 30px ;
-    text-align: center;
-    box-sizing: border-box;
+li a:hover::after {
+  width: 100%;
 }
-.boxedel:hover{
-    background: whitesmoke;
+h1 {
+  font-size: 60px;
+  font-weight: 900;
+  color: aliceblue;
+  text-align: center;
+  text-decoration-line: underline;
+  font-family: "Times New Roman", Times, serif;
+  background: #171817;
 }
-.boxadidas{
-    display: inline-block;
-    width: 300px;
-    height: auto;
-    padding: 20px;
-    background-color: beige;
-    opacity: 0.75;
-    font-style: italic;
-    color: black;
-    border: 2px solid;
-    border-color: blue;
-    margin: 30px;
-    border-radius: 30px ;
-    text-align: center;
-    box-sizing: border-box;
+h6 {
+  color: red;
+  font-style: italic;
 }
-.boxadidas:hover{
-    background: whitesmoke;
+.boxfashion {
+  display: inline-block;
+  width: 300px;
+  height: auto;
+  padding: 20px;
+  background-color: beige;
+  opacity: 0.75;
+  font-style: italic;
+  color: black;
+  border: 2px solid;
+  border-color: blue;
+  margin: 30px;
+  border-radius: 30px;
+  box-sizing: border-box;
 }
-.boxnike{
-    display: inline-block;
-    width: 300px;
-    height: auto;
-    padding: 20px;
-    background-color: beige;
-    opacity: 0.75;
-    font-style: italic;
-    color: black;
-    border: 2px solid;
-    border-color: blue;
-    margin: 30px;
-    border-radius: 30px ;
-    text-align: center;
-    box-sizing: border-box;
+.boxfashion:hover {
+  background: whitesmoke;
 }
-.boxnike:hover{
-    background: whitesmoke;
+.boxzalando {
+  display: inline-block;
+  width: 300px;
+  height: auto;
+  padding: 20px;
+  opacity: 0.75;
+  background-color: beige;
+  font-style: italic;
+  color: black;
+  border: 2px solid;
+  border-color: blue;
+  margin: 30px;
+  border-radius: 30px;
+  text-align: center;
+  box-sizing: border-box;
 }
-.boxcourir{
-    display: inline-block;
-    width: 300px;
-    height: auto;
-    padding: 20px;
-    background-color: beige;
-    opacity: 0.75;
-    font-style: italic;
-    color: black;
-    border: 2px solid;
-    border-color: blue;
-    margin: 30px;
-    border-radius: 30px ;
-    text-align: center;
-    box-sizing: border-box;
+.boxzalando:hover {
+  background: whitesmoke;
 }
-.boxcourir:hover{
-    background: whitesmoke;
+.boxasos {
+  display: inline-block;
+  width: 300px;
+  height: auto;
+  padding: 20px;
+  background-color: beige;
+  opacity: 0.75;
+  font-style: italic;
+  color: black;
+  border: 2px solid;
+  border-color: blue;
+  margin: 30px;
+  border-radius: 30px;
+  text-align: center;
+  box-sizing: border-box;
 }
-.boxsneakers{
-    display: inline-block;
-    width: 300px;
-    height: auto;
-    padding: 20px;
-    background-color: beige;
-    opacity: 0.75;
-    font-style: italic;
-    color: black;
-    border: 2px solid;
-    border-color: blue;
-    margin: 30px;
-    border-radius: 30px ;
-    text-align: center;
-    box-sizing: border-box;
+.boxasos:hover {
+  background: whitesmoke;
 }
-.boxsneakers:hover{
-    background: whitesmoke;
+.boxedel {
+  display: inline-block;
+  width: 300px;
+  height: auto;
+  padding: 20px;
+  background-color: beige;
+  opacity: 0.75;
+  font-style: italic;
+  color: black;
+  border: 2px solid;
+  border-color: blue;
+  margin: 30px;
+  border-radius: 30px;
+  text-align: center;
+  box-sizing: border-box;
 }
-a{
-    font-style: normal;
-    font-weight: bolder;
-    color: blue;
+.boxedel:hover {
+  background: whitesmoke;
+}
+.boxadidas {
+  display: inline-block;
+  width: 300px;
+  height: auto;
+  padding: 20px;
+  background-color: beige;
+  opacity: 0.75;
+  font-style: italic;
+  color: black;
+  border: 2px solid;
+  border-color: blue;
+  margin: 30px;
+  border-radius: 30px;
+  text-align: center;
+  box-sizing: border-box;
+}
+.boxadidas:hover {
+  background: whitesmoke;
+}
+.boxnike {
+  display: inline-block;
+  width: 300px;
+  height: auto;
+  padding: 20px;
+  background-color: beige;
+  opacity: 0.75;
+  font-style: italic;
+  color: black;
+  border: 2px solid;
+  border-color: blue;
+  margin: 30px;
+  border-radius: 30px;
+  text-align: center;
+  box-sizing: border-box;
+}
+.boxnike:hover {
+  background: whitesmoke;
+}
+.boxcourir {
+  display: inline-block;
+  width: 300px;
+  height: auto;
+  padding: 20px;
+  background-color: beige;
+  opacity: 0.75;
+  font-style: italic;
+  color: black;
+  border: 2px solid;
+  border-color: blue;
+  margin: 30px;
+  border-radius: 30px;
+  text-align: center;
+  box-sizing: border-box;
+}
+.boxcourir:hover {
+  background: whitesmoke;
+}
+.boxsneakers {
+  display: inline-block;
+  width: 300px;
+  height: auto;
+  padding: 20px;
+  background-color: beige;
+  opacity: 0.75;
+  font-style: italic;
+  color: black;
+  border: 2px solid;
+  border-color: blue;
+  margin: 30px;
+  border-radius: 30px;
+  text-align: center;
+  box-sizing: border-box;
+}
+.boxsneakers:hover {
+  background: whitesmoke;
+}
+a {
+  font-style: normal;
+  font-weight: bolder;
+  color: blue;
 }

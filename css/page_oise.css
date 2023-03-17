@@ -1,165 +1,221 @@
-body{
-    height: 100vh;
-    width: auto;
-    margin-top: -40px;
-    text-align: center;
-    background:center / cover url(../ressources/photos-oise/foret.jpg);
+*, ::before, ::after{
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0;
+  }
+  body{
+    background: center / cover url(../ressources/photos-oise/foret.jpg);
     background-repeat: repeat-y;
-    font-family: 'Varela Round', sans-serif;
-}
-.accueil1{
+    font-family: "Varela Round", sans-serif;
+  }
+  .accueil1 {
     width: 100%;
-    height: 100%;
-    /*background: #0E6251;*/
-}
-h1{
-    font-size: 60px;
+    height: 100vh;
+    text-align: center;
+  }
+  h1 {
+    /*font-size: 60px;
     font-weight: 900;
     text-align: center;
     color: whitesmoke;
-    text-decoration-line: underline;
+    text-decoration-line: underline;*/
+    display: none;
   }
-h2{
+  h2 {
     font-style: italic;
     text-align: center;
     margin-top: 0;
     color: white;
-}
-p{
-    font-family: 'Poppins', sans-serif;
-}
-.boxoise{
+  }
+  p {
+    font-family: "Poppins", sans-serif;
+  }
+  .boxoise {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
     align-content: space-between;
-}
-.box2d{
-   
-    width: 100px;
-    height: 20px;
-    padding: 15px;
-    margin: 20px;
-    /*mix-blend-mode: multiply;*/
-    background: rgb(155, 116, 57) ;  
-    border-radius: 30px;
-    font-size: 14px;
-    font-weight: 600;
-    text-align: center;
-    border: 2px solid;
-    border-color: rgb(236, 213, 37);
-   /* box-shadow: 0px 6px rgb(160, 123, 12);*/
-}
-  .box2d:hover{
-    background: rgb(210, 210, 214);
-   /* box-shadow: 0px 8px rgb(160, 123, 12);*/
-}
-
-.boxtext0{
+  }
+  .box-chantilly {
     display: inline-block;
     width: 280px;
-    margin: 10px;
+    min-height: 220px;
+    margin: 20px;
     padding: 5px;
-    background: no-repeat center / cover url(../ressources/photos-oise/Château-de-Chantilly.jpg) ;
+    z-index: 1;
+    background: no-repeat center / cover
+      url(../ressources/photos-oise/Château-de-Chantilly.jpg);
     background-clip: border-box;
     text-align: left;
     color: black;
-   font-weight: 400;
+    font-weight: 400;
     border: 4px solid;
     border-color: rgb(1, 2, 19);
     box-sizing: border-box;
-    
-}
-.boxtext0:hover{
+  }
+  .box-chantilly:hover .text-chantilly:after {
+    z-index: -1;
+    display: flex;
+    background-color: white;
+    margin: 5px;
+    margin-top: 50px;
     color: black;
-    background: burlywood;
-}
-.boxtext1{
+    font-size: 12px;
+    font-style: italic;
+    font-weight: 200;
+    text-align: center;
+    content: "Le château de Chantilly est l’un des joyaux du patrimoine français. Il est aussi l’œuvre d’un homme au destin exceptionnel : Henri d’Orléans, duc d’Aumale, fils du dernier roi des Français, Louis-Philippe. Ce prince, …";
+    opacity: 0.7;
+  }
+  .box-compiegne {
     display: inline-block;
     width: 280px;
-    margin: 10px;
+    min-height: 220px;
+    margin: 20px;
     padding: 5px;
-    background:no-repeat center / cover url(../ressources/photos-oise/palaisdecompiegne.jpg) ;
+    z-index: 1;
+    background: no-repeat center / cover
+      url(../ressources/photos-oise/palaisdecompiegne.jpg);
     background-clip: border-box;
     text-align: left;
     color: black;
     font-weight: 400;
     border: 4px solid;
     border-color: rgb(1, 2, 19);
-}
-.boxtext1:hover{
-    background: burlywood;
-
-}
-.boxtext2{
+  }
+  .box-compiegne:hover .text-compiegne:after {
+    z-index: -1;
+    display: flex;
+    background-color: white;
+    margin: 5px;
+    margin-top: 50px;
+    color: black;
+    font-size: 12px;
+    font-style: italic;
+    font-weight: 200;
+    text-align: center;
+    content: "En vous arrêtant au Château de Compiègne, vous pourrez visiter les appartements de l'Empereur et de l'Impératrice, l'appartement du Roi de Rome, l'appartement double de Prince, les musées du Second Empire et ... ";
+    opacity: 0.7;
+  }
+  .box-pierrefond {
     display: inline-block;
     width: 280px;
-    margin: 10px;
+    min-height: 220px;
+    margin: 20px;
     padding: 5px;
-    background:no-repeat center / cover url(../ressources/photos-oise/chateau-pierrefonds.jpg) ;
+    z-index: 1;
+    background: no-repeat center / cover
+      url(../ressources/photos-oise/chateau-pierrefonds.jpg);
     background-clip: border-box;
-    text-align: botton;
     color: black;
     font-weight: 400;
     border: 4px solid;
     border-color: black;
-}
-.boxtext2:hover{
-    background: burlywood;
-    color:black ;
-}
-.boxtext3{
+  }
+  .box-pierrefond:hover .text-pierrefond:after {
+    z-index: -1;
+    display: flex;
+    background-color: white;
+    margin: 5px;
+    margin-top: 50px;
+    color: black;
+    font-size: 12px;
+    font-style: italic;
+    font-weight: 200;
+    text-align: center;
+    content: "Un château réinventé. Construit à la fin du XIV° siècle par le duc Louis d’Orléans, le château est démantelé au XVIIe et se trouve à l’état de ruines lorsque Napoléon III décide d’en confier la reconstruction à l’architecte Eugène Viollet-le-Duc qui met en pratique ses conceptions architecturales pour en faire un château idéal tel qu’il aurait existé au Moyen Âge.";
+    opacity: 0.7;
+  }
+  .box-chaalis {
     display: inline-block;
     width: 280px;
-    margin: 10px;
+    min-height:  220px;;
+    margin: 20px;
     padding: 5px;
-    background:no-repeat center / cover url(../ressources/photos-oise/chaalis.jpg);
+    z-index: 1;
+    background: no-repeat center / cover
+      url(../ressources/photos-oise/chaalis.jpg);
     background-clip: border-box;
     text-align: left;
     color: black;
     font-weight: 400;
     border: 4px solid;
     border-color: rgb(1, 2, 19);
-}
-.boxtext3:hover{
-    background: burlywood;
-    color:black ;
-}
-.boxtext4{
+  }
+  .box-chaalis:hover .text-chaalis:after {
+    z-index: -1;
+    display: flex;
+    background-color: white;
+    margin: 5px;
+    margin-top: 50px;
+    color: black;
+    font-size: 12px;
+    font-style: italic;
+    font-weight: 200;
+    text-align: center;
+    content: "À 40 km de Paris, venez découvrir le Domaine de Chaalis, sa chapelle, véritable « Sixtine française », son « Musée Jacquemart-André », son parc et sa roseraie classée « Jardin remarquable ». Cet ensemble riche de neuf siècles d’histoire est niché dans le creux d’un vallon boisé qui fait l’admiration des visiteurs depuis des décennies.";
+    opacity: 0.7;
+  }
+  .box-beauvais {
     display: inline-block;
     width: 280px;
-    margin: 10px;
+    min-height: 220px;
+    margin: 20px;
     padding: 5px;
-    background:no-repeat center / cover url(../ressources/photos-oise/cathedraledebeauvais.jpg) ;
+    z-index: 1;
+    background: no-repeat center / cover
+      url(../ressources/photos-oise/cathedraledebeauvais.jpg);
     background-clip: border-box;
-    text-align: botton;
     color: black;
     font-weight: 400;
     border: 4px solid;
     border-color: black;
-}
-.boxtext4:hover{
-    background: burlywood;
-    color:black;
-}
-.boxtext5{
+  }
+  .box-beauvais:hover .text-beauvais:after {
+    z-index: -1;
+    display: flex;
+    background-color: white;
+    margin: 5px;
+    margin-top: 50px;
+    color: black;
+    font-size: 12px;
+    font-style: italic;
+    font-weight: 200;
+    text-align: center;
+    content: "Impressionnante ! C’est le mot qui vient immédiatement à l’esprit lorsque l’on regarde la cathédrale Saint Pierre de Beauvais. Elle possède les voûtes les plus hautes de l’art gothique et sa construction s’est étalée sur cinq siècles, ce qui explique pourquoi elle a toujours eu des problèmes de stabilité.";
+    opacity: 0.7;
+  }
+  .box-destinationoise {
     display: inline-block;
     width: 280px;
-    margin: 10px;
+    min-height: 220px;
+    margin: 20px;
     padding: 5px;
-    background:no-repeat center / cover url(../ressources/photos-oise/Etangs-de-Comelles.jpg) ;
+    z-index: 1;
+    background: no-repeat center / cover
+      url(../ressources/photos-oise/Etangs-de-Comelles.jpg);
     background-clip: border-box;
-    text-align: botton;
     color: black;
     font-weight: 400;
     border: 4px solid;
     border-color: black;
-}
-.boxtext5:hover{
-    background: burlywood;
-    color:black;}
-a{
-    text-decoration:none; 
+  }
+  .box-destinationoise:hover .text-destination:after {
+    z-index: -1;
+    display: flex;
+    background-color: white;
+    margin-top: 50px;
+    color: black;
+    font-size: 12px;
+    font-style: italic;
+    font-weight: 200;
+    text-align: center;
+    content: "A deux pas de chez vous. Une nature très accessible et un patrimoine exceptionnel ! randos, balades, histoire,patrimoine et sorties. ";
+    opacity: 0.7;
+  }
+  a {
+    text-decoration: none;
     color: rgb(6, 6, 6);
-}
+  }
+  

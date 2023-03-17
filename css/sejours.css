@@ -1,5 +1,4 @@
 body{
-    
     background:  center / cover url('../ressources/photos-vietnam/laposte.jpg');
 }
 main ul li{
@@ -26,22 +25,4 @@ main ul li:hover{
     padding-top: 50%;
     object-fit: contain;
     visibility: hidden;
-   
-}
-.iframesaigon{
-    position: absolute;
-    top: 40px;
-    left:50px;
-    width: 90%;
-    height: 50%;
-    border: 0;
-    opacity: 1;
-    background: blanchedalmond;
-    object-fit: contain;
-}
-.lisaigon:hover, .lisaigon{
-    
-     visibility: visible;;
-
-
 }
